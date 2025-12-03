@@ -5,7 +5,7 @@
 # ==========================
 
 # Jouw (werkende) directe download-URL van OneDrive / SharePoint
-$UninstallZipUrl     = "https://digitalebewakers-my.sharepoint.com/:u:/p/joris/IQBF69rerWm1QLxMXk3M1EekAezRrCsimPkGxHLMTTsh-bc?e=AS0x5g&download=1"
+$UninstallZipUrl     = "https://[TENANT-NAME].sharepoint.com/:u:/p/joris/IQBF69rerWm1QLxMXk3M1EekAezRrCsimPkGxHLMTTsh-bc?e=AS0x5g&download=1"
 
 # Locaties voor download en extractie
 $TempRoot            = $env:TEMP
@@ -214,3 +214,4 @@ Write-Host "$(Get-Date -format T) Uninstall procedure completed. Please verify s
 
 Stop-Transcript
 exit 0
+
