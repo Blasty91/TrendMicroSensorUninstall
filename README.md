@@ -55,6 +55,8 @@ UninstallSensor\
 
 - Converteer deze map naar een .intunewin met IntuneWinAppUtil.exe
 
+  Invoke-WebRequest “https://raw.githubusercontent.com/microsoft/Microsoft-Win32-Content-Prep-Tool/master/IntuneWinAppUtil.exe” -OutFile IntuneWinAppUtil.exe
+
   IntuneWinAppUtil.exe -c "UninstallSensor" -s "UninstallSensor.ps1" -o .
   UninstallSensor.intunewin
 
